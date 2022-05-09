@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ParkingSystem.Models;
 using ParkingSystem.Models.EmailModels;
+using Azure.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Logging.ClearProviders();
